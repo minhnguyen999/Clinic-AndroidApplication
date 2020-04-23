@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/click"
+    android:background="@drawable/round_bt1"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginLeft="16dp"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/ID"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:text="Patient ID #"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/patientID"
+                android:layout_width="122dp"
+                android:layout_height="match_parent"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/room"
+                android:layout_width="173dp"
+                android:layout_height="match_parent"
+                android:text="Room: 305A"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/firstname"
+                android:layout_width="75dp"
+                android:layout_height="match_parent"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/lastname"
+                android:layout_width="127dp"
+                android:layout_height="match_parent"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/department"
+                android:layout_width="173dp"
+                android:layout_height="match_parent"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/ID1"
+                android:layout_width="72dp"
+                android:layout_height="match_parent"
+                android:text="Gender:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/gender"
+                android:layout_width="130dp"
+                android:layout_height="match_parent"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/ID2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Blood Pressure:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/bloodpressure"
+                android:layout_width="82dp"
+                android:layout_height="match_parent"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/ID3"
+                android:layout_width="122dp"
+                android:layout_height="match_parent"
+                android:text="Respiratory Rate:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/respiratoryrate"
+                android:layout_width="259dp"
+                android:layout_height="match_parent"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/ID4"
+                android:layout_width="122dp"
+                android:layout_height="match_parent"
+                android:text="Blood Oxygen Lv:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/bloodoxygenlevel"
+                android:layout_width="259dp"
+                android:layout_height="match_parent"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

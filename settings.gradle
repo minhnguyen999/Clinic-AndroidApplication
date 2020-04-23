@@ -1,0 +1,2 @@
+include ':app', ':minh', ':MinhExam4'
+rootProject.name='My Application New'
